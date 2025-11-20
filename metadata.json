@@ -1,0 +1,7 @@
+{
+  "name": "Cardinal Medical: The Waldrop Ward",
+  "description": "A high-stress, low-poly hospital management sim where you play as the chaotic Dr. Waldrop. Powered by caffeine and AI.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
