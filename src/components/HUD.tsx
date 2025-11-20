@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Stats, Scenario, Option, GamePhase } from '../types';
 import { audioService } from '../services/audioService';
@@ -54,7 +53,7 @@ const TutorialModal = ({ onClose }: { onClose: () => void }) => (
                     <div className="text-3xl">☕</div>
                     <div>
                         <strong className="text-yellow-400 block uppercase">Caffeine is Life</strong>
-                        <p className="text-slate-300 text-sm">If your caffeine hits 0%, you pass out and <span className="text-red-500 font-bold">DIE</span>. Click "DRINK" to recharge, but don't get "TOO WIRED" (>95%) or you can't drink anymore.</p>
+                        <p className="text-slate-300 text-sm">If your caffeine hits 0%, you pass out and <span className="text-red-500 font-bold">DIE</span>. Click "DRINK" to recharge, but don't get "TOO WIRED" (&gt;95%) or you can't drink anymore.</p>
                     </div>
                 </div>
                 <div className="flex items-start gap-4">
